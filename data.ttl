@@ -1,0 +1,31 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Researchers
+ex:Alice a ex:Researcher ;
+    rdfs:label "Alice" ;
+    ex:worksOn ex:MachineLearning, ex:NeuralNetworks .
+
+ex:Bob a ex:Researcher ;
+    rdfs:label "Bob" ;
+    ex:worksOn ex:DataScience, ex:GraphDatabases .
+
+# Topics
+ex:MachineLearning a ex:Topic ;
+    rdfs:label "Machine Learning" .
+
+ex:NeuralNetworks a ex:Topic ;
+    rdfs:label "Neural Networks" .
+
+ex:GraphDatabases a ex:Topic ;
+    rdfs:label "Graph Databases" .
+
+# Publications
+ex:Paper1 a ex:Publication ;
+    rdfs:label "Advances in Machine Learning" ;
+    ex:writtenBy ex:Alice .
+
+ex:Paper2 a ex:Publication ;
+    rdfs:label "Graph-Based Data Management" ;
+    ex:writtenBy ex:Bob .

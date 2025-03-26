@@ -1,0 +1,68 @@
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+### 🧑‍🔬 Scientists
+ex:Entity1 rdfs:label "Albert Einstein" ; rdfs:comment "Developed the theory of relativity, E=mc^2." .
+ex:Entity2 rdfs:label "Isaac Newton" ; rdfs:comment "Physicist who formulated the laws of motion and gravity." .
+ex:Entity3 rdfs:label "Rosalind Franklin" ; rdfs:comment "Helped discover DNA structure with X-ray diffraction." .
+ex:Entity4 rdfs:label "Charles Darwin" ; rdfs:comment "Developed the theory of evolution by natural selection." .
+ex:Entity5 rdfs:label "Nikola Tesla" ; rdfs:comment "Pioneer of AC electricity and wireless transmission." .
+
+### 🤖 Artificial Intelligence & Technology
+ex:Entity6 rdfs:label "Machine Learning" ; rdfs:comment "Subset of AI that enables computers to learn from data." .
+ex:Entity7 rdfs:label "Natural Language Processing" ; rdfs:comment "AI field focused on understanding human language." .
+ex:Entity8 rdfs:label "Quantum Computing" ; rdfs:comment "Computing technology based on quantum mechanics." .
+ex:Entity9 rdfs:label "Blockchain" ; rdfs:comment "Decentralized ledger technology used in cryptocurrencies." .
+ex:Entity10 rdfs:label "Augmented Reality" ; rdfs:comment "Technology overlaying digital elements onto the real world." .
+
+### 🏛️ Philosophy & Literature
+ex:Entity11 rdfs:label "Plato" ; rdfs:comment "Ancient Greek philosopher, student of Socrates." .
+ex:Entity12 rdfs:label "Aristotle" ; rdfs:comment "Greek philosopher who wrote on logic, science, and ethics." .
+ex:Entity13 rdfs:label "René Descartes" ; rdfs:comment "French philosopher, 'I think, therefore I am'." .
+ex:Entity14 rdfs:label "George Orwell" ; rdfs:comment "Author of '1984' and 'Animal Farm'." .
+ex:Entity15 rdfs:label "Mary Shelley" ; rdfs:comment "Wrote 'Frankenstein', a foundational science fiction novel." .
+
+### 🏢 Companies & Organizations
+ex:Entity16 rdfs:label "NASA" ; rdfs:comment "United States space agency exploring space and technology." .
+ex:Entity17 rdfs:label "OpenAI" ; rdfs:comment "AI research company developing ChatGPT and DALL-E." .
+ex:Entity18 rdfs:label "Tesla, Inc." ; rdfs:comment "Electric vehicle and energy company founded by Elon Musk." .
+ex:Entity19 rdfs:label "Google DeepMind" ; rdfs:comment "AI company developing advanced AI systems." .
+ex:Entity20 rdfs:label "Amazon Web Services" ; rdfs:comment "Cloud computing platform providing infrastructure services." .
+
+### 🌍 History & Civilization
+ex:Entity21 rdfs:label "Ancient Egypt" ; rdfs:comment "One of the world's earliest civilizations, known for pyramids." .
+ex:Entity22 rdfs:label "Roman Empire" ; rdfs:comment "Ancient empire that ruled much of Europe and the Mediterranean." .
+ex:Entity23 rdfs:label "World War II" ; rdfs:comment "Global conflict from 1939 to 1945 involving major world powers." .
+ex:Entity24 rdfs:label "Industrial Revolution" ; rdfs:comment "Period of rapid technological and industrial development." .
+ex:Entity25 rdfs:label "French Revolution" ; rdfs:comment "Period of social and political upheaval in France, 1789-1799." .
+
+### 🌌 Space & Astronomy
+ex:Entity26 rdfs:label "Black Hole" ; rdfs:comment "Region of spacetime with gravity so strong that nothing escapes." .
+ex:Entity27 rdfs:label "Milky Way" ; rdfs:comment "Galaxy containing our solar system." .
+ex:Entity28 rdfs:label "Mars Rover" ; rdfs:comment "Robotic vehicles exploring Mars." .
+ex:Entity29 rdfs:label "Exoplanets" ; rdfs:comment "Planets orbiting stars outside our solar system." .
+ex:Entity30 rdfs:label "Big Bang Theory" ; rdfs:comment "Scientific explanation for the origin of the universe." .
+
+### 🎵 Music & Arts
+ex:Entity31 rdfs:label "Ludwig van Beethoven" ; rdfs:comment "German composer known for symphonies and piano sonatas." .
+ex:Entity32 rdfs:label "Vincent van Gogh" ; rdfs:comment "Dutch painter famous for 'Starry Night'." .
+ex:Entity33 rdfs:label "The Beatles" ; rdfs:comment "Influential British rock band from the 1960s." .
+ex:Entity34 rdfs:label "Shakespeare" ; rdfs:comment "English playwright and poet, wrote 'Hamlet' and 'Macbeth'." .
+ex:Entity35 rdfs:label "Leonardo da Vinci" ; rdfs:comment "Renaissance artist and scientist, painted 'Mona Lisa'." .
+
+### 🏆 Sports
+ex:Entity36 rdfs:label "Michael Jordan" ; rdfs:comment "Basketball legend, 6-time NBA champion with the Chicago Bulls." .
+ex:Entity37 rdfs:label "Usain Bolt" ; rdfs:comment "Fastest sprinter in history, 8-time Olympic gold medalist." .
+ex:Entity38 rdfs:label "Serena Williams" ; rdfs:comment "One of the greatest tennis players of all time." .
+ex:Entity39 rdfs:label "Cristiano Ronaldo" ; rdfs:comment "Portuguese footballer with multiple Ballon d'Or awards." .
+ex:Entity40 rdfs:label "Lewis Hamilton" ; rdfs:comment "Formula 1 driver with multiple world championships." .
+
+### 🎥 Movies & Pop Culture
+ex:Entity41 rdfs:label "Star Wars" ; rdfs:comment "Sci-fi film series created by George Lucas." .
+ex:Entity42 rdfs:label "The Matrix" ; rdfs:comment "Cyberpunk movie about simulated reality." .
+ex:Entity43 rdfs:label "Marvel Cinematic Universe" ; rdfs:comment "Franchise featuring superheroes like Iron Man and Thor." .
+ex:Entity44 rdfs:label "Harry Potter" ; rdfs:comment "Fantasy book series about a young wizard, written by J.K. Rowling." .
+ex:Entity45 rdfs:label "Studio Ghibli" ; rdfs:comment "Japanese animation studio known for 'Spirited Away' and 'My Neighbor Totoro'." .
+
+# More Entities...
+# (Continue up to Entity100)
